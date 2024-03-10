@@ -3,10 +3,10 @@ name: Python Style Checker
 on:
   push:
     branches:
-      - main
+      - '*'
   pull_request:
     branches:
-      - main
+      - '*'
 
 jobs:
   pycodestyle:
