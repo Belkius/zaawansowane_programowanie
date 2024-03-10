@@ -32,3 +32,4 @@ flat1 = Flat(area=80, rooms=3, price=150000, address="ul. Nowa 10", floor=2)
 
 print(house1)
 print(flat1)
+
