@@ -1,0 +1,19 @@
+name: Python Style Checker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pycodestyle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run PyCodeStyle
+        uses: andymckay/pycodestyle-action@0.1.3
